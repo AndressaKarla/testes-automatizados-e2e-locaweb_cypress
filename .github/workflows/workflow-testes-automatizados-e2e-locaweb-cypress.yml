@@ -33,8 +33,8 @@ jobs:
 
       - name: Passo 2 - Redirecionar os conteúdos de "secrets.USUARIO_ENV", "secrets.DOMINIO_ENV", para os arquivos "usuario.json", "dominio.json", etc
         run: |
-          echo '${{ secrets.USUARIO_ENV }}' > ./features/support/fixtures/usuario.json
-          echo '${{ secrets.DOMINIO_ENV }}' > ./features/support/fixtures/dominio.json
+          echo '${{ secrets.USUARIO_ENV }}' > ./cypress/fixtures/usuario.json
+          echo '${{ secrets.DOMINIO_ENV }}' > ./cypress/fixtures/dominio.json
         
       - name: Passo 3 - Instalar dependências, Executar testes no navegador chrome em modo headless (2º plano) em um ambiente de produção e Gerar os resultados dos testes
         uses: cypress-io/github-action@v5.0.8
@@ -78,8 +78,8 @@ jobs:
 
       - name: Passo 2 - Redirecionar os conteúdos de "secrets.USUARIO_ENV", "secrets.DOMINIO_ENV", para os arquivos "usuario.json", "dominio.json", etc
         run: |
-          echo '${{ secrets.USUARIO_ENV }}' > ./features/support/fixtures/usuario.json
-          echo '${{ secrets.DOMINIO_ENV }}' > ./features/support/fixtures/dominio.json
+          echo '${{ secrets.USUARIO_ENV }}' > ./cypress/fixtures/usuario.json
+          echo '${{ secrets.DOMINIO_ENV }}' > ./cypress/fixtures/dominio.json
         
       - name: Passo 3 - Instalar dependências, Executar testes no navegador firefox em modo headless (2º plano) em um ambiente de produção e Gerar os resultados dos testes
         uses: cypress-io/github-action@v5.0.8
