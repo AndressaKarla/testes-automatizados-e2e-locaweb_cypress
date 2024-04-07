@@ -1,0 +1,7 @@
+{
+    "clienteLocawebCpf": {
+        "usuarioValido": "informar-usuario-cliente-locaweb-cpf-valido",
+        "senhaValida": "informar-senha-usuario-cliente-locaweb-cpf-valida",
+        "cpfValido": "informar-cpf-usuario-cliente-locaweb-valido"
+    }
+}

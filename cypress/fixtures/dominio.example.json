@@ -1,0 +1,11 @@
+{
+    "dominioNacional": {
+        "nomeDominioNacionalDiferenteOrgBrCpf": "informar-nome-dominio-nacional-diferente-org-br-cpf",
+        "extensaoDominioNacionalDiferenteOrgBr": "informar-extensao-dominio-nacional-diferente-org-br-sem-1°-ponto"
+    },
+    "dominioInternacional": {
+        "nomeDominioInternacionalNaoUso": "informar-nome-dominio-internacional-nao-esteja-em-uso",
+        "extensaoDominioInternacional": "informar-extensao-dominio-internacional-sem-1°-ponto",
+        "nomeDominioInternacionalUso": "informar-nome-dominio-internacional-esteja-em-uso"
+    }
+}

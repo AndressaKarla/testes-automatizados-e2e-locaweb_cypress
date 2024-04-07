@@ -1,0 +1,16 @@
+{
+  "name": "testes-automatizados-e2e-locaweb_cypress",
+  "version": "1.0.0",
+  "description": "Projeto de Testes Automatizados E2E no site Locaweb em Cypress",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run --browser chrome",
+    "test:ff": "cypress run --config video=false --browser firefox"
+  },
+  "author": "Andressa Karla",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.2.0"
+  }
+}
